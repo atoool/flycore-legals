@@ -1,0 +1,296 @@
+<html><head>
+	<meta charset="utf-8">
+	<title>Privacy Policy</title>
+	<!-- <link rel="icon" type="image/png" href="images/Live Stories-favicon.png" /> -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta property="og:title" content="Privacy Policy">
+
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="en_US">
+	<style type="text/css">
+		.content {
+			width: 85%;
+			max-width: 720px;
+			margin: 0 auto;
+			font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+			letter-spacing: 0.01rem;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 20px;
+			line-height: 1.5;
+			text-rendering: optimizeLegibility;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			color: rgba(0, 0, 0, 0.8);
+		}
+
+		.heading {
+			font-family: "Roboto", Helvetica, Trebuchet, sans-serif;
+			margin-top: 5px;
+		}
+
+		.logo {
+			width: 100px;
+		}
+	</style>
+	
+</head>
+
+<body id="body">
+	
+
+
+
+
+
+<script>
+   function parse_query_string(query) {
+  var vars = query.split("&");
+  var query_string = {};
+  for (var i = 0; i < vars.length; i++) {
+    var pair = vars[i].split("=");
+    var key = decodeURIComponent(pair[0]);
+    var value = decodeURIComponent(pair[1]);
+    // If first entry with this name
+    if (typeof query_string[key] === "undefined") {
+      query_string[key] = decodeURIComponent(value);
+      // If second entry with this name
+    } else if (typeof query_string[key] === "string") {
+      var arr = [query_string[key], decodeURIComponent(value)];
+      query_string[key] = arr;
+      // If third or later entry with this name
+    } else {
+      query_string[key].push(decodeURIComponent(value));
+    }
+  }
+  return query_string;
+}
+
+var query_string = location.search?.split('?')[1]??null
+var parsed_qs = query_string? parse_query_string(query_string):null;
+const appName = parsed_qs?.appName?? 'This Software'
+const page=parsed_qs?.page?? 'privacy'
+
+document.getElementById('body').innerHTML=page==='privacy'?
+`
+<div class="content">
+				<h2 class="heading">Privacy Policy</h2>
+		<p>Welcome to ${appName} (“${appName}", “we,” “us” or “our”). </p>
+		<p>Our Privacy Policy explains how we collect, use, share and protect information in relation to our mobile services, web
+			site, and any software provided on or in connection with ${appName} services (collectively, the “Service”), and your
+			choices about the collection and use of your information.</p>
+		<p>By using our Service you understand and agree that we are providing a platform for you to stylize content.</p>
+		<p>Our Policy applies to all visitors, users, and others who access the Service (“Users”)</p>
+		<h3>INFORMATION WE COLLECT</h3>
+		<p>We collect the following types of information.</p>
+		<b>Information you provide us directly:</b>
+		<p>User Content (e.g., photos and other materials) that you post through the Service. Communications between you and ${appName}. For example, we may send you Service-related emails (e.g., changes/updates to features of the Service, technical
+			and security notices). Note that you may not opt out of Service-related e-mails.</p>
+		<b>Analytics information:</b>
+		<p>We use third-party analytics tools to help us measure traffic and usage trends for the Service. These tools collect information
+			sent by your device or our Service, including the web pages you visit, add-ons, and other information that assists us
+			in improving the Service. We collect and use this analytics information with analytics information from other Users so
+			that it cannot reasonably be used to identify any particular individual User.</p>
+		<b>Cookies and similar technologies:</b>
+		<p>When you visit the Service, we may use cookies and similar technologies to collect information about how you use ${appName}			and provide features to you.</p>
+		<p>We may ask advertisers or other partners to serve ads or services to your devices, which may use cookies or similar technologies
+			placed by us or the third party.</p>
+		<b>Log file information:</b>
+		<p>Log file information is automatically reported by your browser each time you make a request to access (i.e., visit) a web
+			page or app. It can also be provided when the content of the webpage or app is downloaded to your browser or device.</p>
+		<p>When you use our Service, our servers automatically record certain log file information, including your web request, Internet
+			Protocol (“IP”) address, browser type, referring / exit pages and URLs, number of clicks and how you interact with links
+			on the Service, domain names, landing pages, pages viewed, and other such information. We may also collect similar information
+			from emails sent to our Users which then help us track which emails are opened and which links are clicked by recipients.
+			The information allows for more accurate reporting and improvement of the Service.</p>
+		<b>Device identifiers:</b>
+		<p>When you use a mobile device like a tablet or phone to access our Service, we may access, collect, monitor, store on your
+			device, and/or remotely store one or more “device identifiers.” Device identifiers are small data files or similar data
+			structures stored on or associated with your mobile device, which uniquely identify your mobile device. A device identifier
+			may be data stored in connection with the device hardware, data stored in connection with the device’s operating system
+			or other software, or data sent to the device by ${appName}.</p>
+		<p>A device identifier ${appName} deliver information to us or to a third party partner about how you browse and use the
+			Service and may help us or others provide reports or personalized content and ads. Some features of the Service ${appName}			not function properly if use or availability of device identifiers is impaired or disabled.</p>
+		<b>Metadata:</b>
+		<p>Metadata is usually technical data that is associated with User Content. For example, Metadata can describe how, when and
+			by whom a piece of User Content was collected and how that content is formatted.</p>
+		<p>Users can add or ${appName} have Metadata added to their User Content including a hashtag (e.g., to mark keywords when
+			you share a photo) or other data.</p>
+		<h3>2. HOW WE USE YOUR INFORMATION</h3>
+		<p>In addition to some of the specific uses of information we describe in this Privacy Policy, we may use information that
+			we receive to:</p>
+		<ul>
+			<li class="li4">
+				<span class="s2"></span>
+				<span class="s1">provide personalized content and information to you and others, which could include online ads or other forms of marketing</span>
+			</li>
+			<li class="li4">
+				<span class="s2"></span>
+				<span class="s1">provide, improve, test, and monitor the effectiveness of our Service</span>
+			</li>
+			<li class="li4">
+				<span class="s2"></span>
+				<span class="s1">develop and test new products and features</span>
+			</li>
+			<li class="li4">
+				<span class="s2"></span>
+				<span class="s1">monitor metrics such as total number of visitors, traffic, and demographic patterns</span>
+			</li>
+			<li class="li4">
+				<span class="s2"></span>
+				<span class="s1">diagnose or fix technology problems</span>
+			</li>
+			<li class="li4">
+				<span class="s2"></span>
+				<span class="s1">automatically update the ${appName} application on your device</span>
+			</li>
+		</ul>
+		<h3>3. SHARING OF YOUR INFORMATION</h3>
+		<p>We will not rent or sell your information to third parties outside ${appName} (or the group of companies of which ${appName} is a part) without your consent, except as Parties with whom we may share your information: in this Policy.</p>
+		<b>Parties with whom we ${appName} share your information:</b>
+		<p>We ${appName} share User Content and your information (including but not limited to, information from cookies, log files,
+			device identifiers, location data, and usage data) with businesses that are legally part of the same group of companies
+			that ${appName} is part of, or that become part of that group (“Affiliates”). Affiliates ${appName} use this information
+			to help provide, understand, and improve the Service (including by providing analytics) and Affiliates’ own services (including
+			by providing you with better and more relevant experiences). But these Affiliates will honor the choices you make about
+			who can see your photos.</p>
+		<p>We also may share your information as well as information from tools like cookies, log files, and device identifiers and
+			location data, with third-party organizations that help us provide the Service to you (“Service Providers”). Our Service
+			Providers will be given access to your information as is reasonably necessary to provide the Service under reasonable
+			confidentiality terms.</p>
+		<p>We ${appName} also share certain information such as cookie data with third-party advertising partners. This information
+			would allow third-party ad networks to, among other things, deliver targeted advertisements that they believe will be
+			of most interest to you.</p>
+		<p>We ${appName} remove parts of data that can identify you and share anonymized data with other parties.</p>
+		<p>We ${appName} also combine your information with other information in a way that it is no longer associated with you
+			and share that aggregated information.</p>
+		<b>Parties with whom you ${appName} choose to share your User Content:</b>
+		<p>Any information or content that you voluntarily stylize with the Service, such as User Content, becomes available to the
+			${appName} anonymously.</p>
+		<b>What happens in the event of a change of control:</b>
+		<p>If we sell or otherwise transfer part or the whole of ${appName} or our assets to another organization (e.g., in the
+			course of a transaction like a merger, acquisition, bankruptcy, dissolution, liquidation), your information such as User
+			Content and any other information collected through the Service ${appName} be among the items sold or transferred. You
+			will continue to own your User Content. The buyer or transferee will have to honor the commitments we have made in this
+			Privacy Policy.</p>
+		<b>Responding to legal requests and preventing harm:</b>
+		<p>We ${appName} access, preserve and share your information in response to a legal request (like a search warrant, court
+			order or subpoena) if we have a good faith belief that the law requires us to do so. This ${appName} include responding
+			to legal requests from jurisdictions outside of the India where we have a good faith belief that the response is required
+			by law in that jurisdiction, affects users in that jurisdiction, and is consistent with internationally recognized standards.
+			We ${appName} also access, preserve and share information when we have a good faith belief it is necessary to: detect,
+			prevent and address fraud and other illegal activity; to protect ourselves, you and others, including as part of investigations;
+			and to prevent death or imminent bodily harm. Information we receive about you ${appName} be accessed, processed and
+			retained for an extended period of time when it is the subject of a legal request or obligation, governmental investigation,
+			or investigations concerning possible violations of our terms or policies, or otherwise to prevent harm.</p>
+		<h3>4. HOW WE STORE YOUR INFORMATION</h3>
+		<b>Storage and Processing:</b>
+		<p>Your information collected through the Service ${appName} be stored and processed in India or any other country in which
+			${appName}, its Affiliates or Service Providers maintain facilities.</p>
+		<p>${appName}, its Affiliates, or Service Providers may transfer information that we collect about you, including personal
+			information across borders and from your country or jurisdiction to other countries or jurisdictions around the world.
+			If you are located in the US, European Union or other regions with laws governing data collection and use that may differ
+			from Indian law, please note that we may transfer information, including personal information, to a country and jurisdiction
+			that does not have the same data protection laws as your jurisdiction.</p>
+		<p>By registering for and using the Service you consent to the transfer of information to India or to any other country in
+			which ${appName}, its Affiliates or Service Providers maintain facilities and the use and disclosure of information
+			about you as described in this Privacy Policy.</p>
+		<p>We use commercially reasonable safeguards to help keep the information collected through the Service secure and take reasonable
+			steps (such as requesting a unique password) to verify your identity before granting you access to your account. However,
+			${appName} cannot ensure the security of any information you transmit to ${appName} or guarantee that information
+			on the Service may not be accessed, disclosed, altered, or destroyed.</p>
+		<p>Please do your part to help us. You are responsible for maintaining the secrecy of your unique password and account information,
+			and for controlling access to emails between you and ${appName}, at all times. Your privacy settings ${appName} also
+			be affected by changes the social media services you connect to ${appName} make to their services. We are not responsible
+			for the functionality, privacy, or security measures of any other organization.</p>
+		<h3>5. CHILDREN’S PRIVACY</h3>
+		<p>${appName} does not knowingly collect or solicit any information from anyone under the age of 13. The Service and its
+			content are not directed at children under the age of 13. In the event that we learn that we have collected personal information
+			from a child under age 13 without parental consent, we will delete that information as quickly as possible. If you believe
+			that we might have any information from or about a child under 13, please contact us.</p>
+		<h3>6. OTHER WEB SITES AND SERVICES</h3>
+		<p>We are not responsible for the practices employed by any websites or services linked to or from our Service, including
+			the information or content contained within them.</p>
+		<h3>7. CONTACT US</h3>
+		<p>If you have any questions about this Privacy Policy or the Service, please contact us.
+			.
+		</p>
+		<h3>8. CHANGES TO OUR PRIVACY POLICY</h3>
+		<p>${appName} may modify or update this Privacy Policy from time to time, so please review it periodically. We may provide
+			you additional forms of notice of modifications or updates as appropriate under the circumstances. Your continued use
+			of ${appName} or the Service after any modification to this Privacy Policy will constitute your acceptance of such modification.</p>
+	</div>
+`
+:page==='terms'?
+`
+<div class="content">
+		<header class="entry-header">
+			<h1 class="entry-title">Terms of Service</h1>
+		</header>
+		<div class="entry-content">
+				<p>By accessing or using the ${appName} service, or any applications (including mobile applications) made available by ${appName} (together, the “Service”), however accessed, you agree to be bound by these terms of use (“Terms of Use”). The Service is owned or controlled by FlyCore Solutions (${appName}”). These Terms of Use affect your legal rights and obligations. If you do not agree to be bound by all of these Terms of Use, do not access or use the Service.</p>
+				<p>There may be times when we offer a special feature that has its own terms and conditions that apply in addition to these Terms of Use. In those cases, the terms specific to the special feature control to the extent there is a conflict with these Terms of Use.</p>
+				<p>ARBITRATION NOTICE: EXCEPT IF YOU OPT-OUT AND EXCEPT FOR CERTAIN TYPES OF DISPUTES DESCRIBED IN THE ARBITRATION SECTION BELOW, YOU AGREE THAT DISPUTES BETWEEN YOU AND ${appName} WILL BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION AND YOU WAIVE YOUR RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT OR CLASS-WIDE ARBITRATION.</p>
+				<h3>Basic Terms</h3>
+				<p>You must be at least 13 years old to use the Service.</p>
+				<p>You may not use the Service for any illegal or unauthorized purpose. You agree to comply with all laws, rules and regulations (for example, federal, state, local and provincial) applicable to your use of the Service and your Content (defined below), including but not limited to, copyright laws. You are solely responsible for your conduct and any data, text, files, information, usernames, images, graphics, photos, profiles, audio and video clips, sounds, musical works, works of authorship, applications, links and other content or materials (collectively, “Content”) that you submit, post or display on or via the Service.</p>
+				<p>You must not access ${appName}’s private API by means other than those permitted by ${appName}.</p>
+				<p>You must not interfere or disrupt the Service or servers or networks connected to the Service, including by transmitting any worms, viruses, spyware, malware or any other code of a destructive or disruptive nature. You may not inject content or code or otherwise alter or interfere with the way any ${appName} page is rendered or displayed in a user’s browser or device.</p>
+				<p>Violation of these Terms of Use may, in ${appName}’s sole discretion, result in a ban of ${appName} usage. You understand and agree that ${appName} cannot and will not be responsible for the Content stylize on the Service and you use the Service at your own risk. If you violate the letter or spirit of these Terms of Use, or otherwise create risk or possible legal exposure for ${appName}, we can stop providing all or part of the Service to you.</p>
+				<h3>General Conditions</h3>
+				<p>We reserve the right to modify or terminate the Service or your access to the Service for any reason, without notice, at any time, and without liability to you. If we terminate your access to the Service your photos, comments, likes, friendships, and all other data will no longer be accessible to us.</p>
+				<p>Upon termination, all licenses and other rights granted to you in these Terms of Use will immediately cease.</p>
+				<p>We reserve the right, in our sole discretion, to change these Terms of Use (“Updated Terms”) from time to time. Unless we make a change for legal or administrative reasons, we will provide reasonable advance notice before the Updated Terms become effective. You agree that we may notify you of the Updated Terms by posting them on the Service, and that your use of the Service after the effective date of the Updated Terms (or engaging in such other conduct as we may reasonably specify) constitutes your agreement to the Updated Terms. Therefore, you should review these Terms of Use and any Updated Terms before using the Service. The Updated Terms will be effective as of the time of posting, or such later date as may be specified in the Updated Terms, and will apply to your use of the Service from that point forward. These Terms of Use will govern any disputes arising before the effective date of the Updated Terms.</p>
+				<p>We reserve the right to refuse access to the Service to anyone for any reason at any time. There may be links from the Service, or from communications you receive from the Service, to third-party web sites or features. There may also be links to third-party web sites or features in images or comments within the Service. The Service also includes third-party content that we do not control, maintain or endorse. Functionality on the Service may also permit interactions between the Service and a third-party web site or feature, including applications that connect the Service or your profile on the Service with a third-party web site or feature. For example, the Service may include a feature that enables you to share Content from the Service or your Content with a third party, which may be publicly posted on that third party’s service or application. Using this functionality typically requires you to login to your account on the third-party service and you do so at your own risk. ${appName} does not control any of these third-party web services or any of their content. You expressly acknowledge and agree that ${appName} is in no way responsible or liable for any such third-party services or features. YOUR CORRESPONDENCE AND BUSINESS DEALINGS WITH THIRD PARTIES FOUND THROUGH THE SERVICE ARE SOLELY BETWEEN YOU AND THE THIRD PARTY. You may choose, at your sole and absolute discretion and risk, to use applications that connect the Service or your profile on the Service with a third-party service (each, an “Application”) and such Application may interact with, connect to or gather and/or pull information from and to your Service profile. By using such Applications, you acknowledge and agree to the following: (i) your use of an Application is at your own option and risk, and you will hold the ${appName} Parties (defined below) harmless for activity related to the Application. You agree that you are responsible for all data charges you incur through use of the Service. We prohibit crawling, scraping, caching or otherwise accessing any content on the Service via automated means, including but not limited to, user profiles and photos (except as may be the result of standard search engine protocols or technologies used by a search engine with ${appName}’s express consent).</p>
+				<h3>Rights</h3>
+				<p>${appName} does not claim ownership of any Content that you post on or through the Service. Instead, you hereby grant to ${appName} a non-exclusive, fully paid and royalty-free, transferable, sub-licensable, worldwide license to use the Content that you stylize on or through the Service, subject to the Service’s Privacy Policy, available <a href="https://flycore-legals.herokuapp.com?appname=${appName}&page=privacy">here</a>, including but not limited to sections 3 (“Sharing of Your Information”) and 4 (“How We Store Your Information”). Some of the Service is supported by advertising revenue and may display advertisements and promotions, and you hereby agree that ${appName} may place such advertising and promotions on the Service or on, about, or in conjunction with your Content. The manner, mode and extent of such advertising and promotions are subject to change without specific notice to you.</p>
+				<p>You acknowledge that we may not always identify paid services, sponsored content, or commercial communications as such.</p>
+				<p>You represent and warrant that: (i) you own the Content stylized by you on or through the Service or otherwise have the right to grant the rights and licenses set forth in these Terms of Use; (ii) you agree to pay for all royalties, fees, and any other monies owed by reason of Content you stylize on or through the Service; and (iii) you have the legal right and capacity to enter into these Terms of Use in your jurisdiction.</p>
+				<p>The Service contains content owned or licensed by ${appName} (${appName}”). ${appName} Content is protected by copyright, trademark, patent, trade secret and other laws, and, as between you and ${appName}, ${appName} owns and retains all rights in the ${appName} Content and the Service. You will not remove, alter or conceal any copyright, trademark, service mark or other proprietary rights notices incorporated in or accompanying the ${appName} Content and you will not reproduce, modify, adapt, prepare derivative works based on, perform, display, publish, distribute, transmit, broadcast, sell, license or otherwise exploit the ${appName} Content.</p>
+				<p>The ${appName} name and logo are trademarks of ${appName}, and may not be copied, imitated or used, in whole or in part, without the prior written permission of ${appName}, except in accordance with our brand guidelines. In addition, all page headers, custom graphics, button icons and scripts are service marks, trademarks and/or trade dress of ${appName}, and may not be copied, imitated or used, in whole or in part, without prior written permission from ${appName}.</p>
+				<p>Although it is ${appName}’s intention for the Service to be available as much as possible, there will be occasions when the Service may be interrupted, including, without limitation, for scheduled maintenance or upgrades, for emergency repairs, or due to failure of telecommunications links and/or equipment. Also, ${appName} reserves the right to remove any Content from the Service for any reason, without prior notice. Content removed from the Service may continue to be stored by ${appName}, including, without limitation, in order to comply with certain legal obligations, but may not be retrievable without a valid court order. Consequently, ${appName} encourages you to maintain your own backup of your Content. In other words, ${appName} is not a backup service and you agree that you will not rely on the Service for the purposes of Content backup or storage. ${appName} will not be liable to you for any modification, suspension, or discontinuation of the Services, or the loss of any Content. You also acknowledge that the Internet may be subject to breaches of security and that the submission of Content or other information may not be secure.</p>
+				<p>Except as otherwise described in the Service’s Privacy Policy, available <a href="https://flycore-legals.herokuapp.com?appname=${appName}&page=privacy">here</a>, as between you and ${appName}, any Content will be non-confidential and non-proprietary and we will not be liable for any use or disclosure of Content.</p>
+				<h3>Disclaimer of Warranties</h3>
+				<p>THE SERVICE, INCLUDING, WITHOUT LIMITATION, ${appName} CONTENT, IS PROVIDED ON AN “AS IS”, “AS AVAILABLE” AND “WITH ALL FAULTS” BASIS. TO THE FULLEST EXTENT PERMISSIBLE BY LAW, NEITHER ${appName} NOR ITS PARENT COMPANY NOR ANY OF THEIR EMPLOYEES, MANAGERS, OFFICERS OR AGENTS (COLLECTIVELY, THE “MAY PARTIES”) MAKE ANY REPRESENTATIONS OR WARRANTIES OR ENDORSEMENTS OF ANY KIND WHATSOEVER, EXPRESS OR IMPLIED, AS TO: (A) THE SERVICE; (B) THE MAY CONTENT; © USER CONTENT; OR (D) SECURITY ASSOCIATED WITH THE TRANSMISSION OF INFORMATION TO MAY OR VIA THE SERVICE. IN ADDITION, THE MAY PARTIES HEREBY DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, TITLE, CUSTOM, TRADE, QUIET ENJOYMENT, SYSTEM INTEGRATION AND FREEDOM FROM COMPUTER VIRUS.</p>
+				<p>THE MAY PARTIES DO NOT REPRESENT OR WARRANT THAT THE SERVICE WILL BE ERROR-FREE OR UNINTERRUPTED; THAT DEFECTS WILL BE CORRECTED; OR THAT THE SERVICE OR THE SERVER THAT MAKES THE SERVICE AVAILABLE IS FREE FROM ANY HARMFUL COMPONENTS, INCLUDING, WITHOUT LIMITATION, VIRUSES. THE MAY PARTIES DO NOT MAKE ANY REPRESENTATIONS OR WARRANTIES THAT THE INFORMATION (INCLUDING ANY INSTRUCTIONS) ON THE SERVICE IS ACCURATE, COMPLETE, OR USEFUL. YOU ACKNOWLEDGE THAT YOUR USE OF THE SERVICE IS AT YOUR SOLE RISK. THE MAY PARTIES DO NOT WARRANT THAT YOUR USE OF THE SERVICE IS LAWFUL IN ANY PARTICULAR JURISDICTION, AND THE MAY PARTIES SPECIFICALLY DISCLAIM SUCH WARRANTIES. SOME JURISDICTIONS LIMIT OR DO NOT ALLOW THE DISCLAIMER OF IMPLIED OR OTHER WARRANTIES SO THE ABOVE DISCLAIMER MAY NOT APPLY TO YOU TO THE EXTENT SUCH JURISDICTION’S LAW IS APPLICABLE TO YOU AND THESE TERMS OF USE.</p>
+				<p>BY ACCESSING OR USING THE SERVICE YOU REPRESENT AND WARRANT THAT YOUR ACTIVITIES ARE LAWFUL IN EVERY JURISDICTION WHERE YOU ACCESS OR USE THE SERVICE.</p>
+				<p>THE MAY PARTIES DO NOT ENDORSE CONTENT AND SPECIFICALLY DISCLAIM ANY RESPONSIBILITY OR LIABILITY TO ANY PERSON OR ENTITY FOR ANY LOSS, DAMAGE (WHETHER ACTUAL, CONSEQUENTIAL, PUNITIVE OR OTHERWISE), INJURY, CLAIM, LIABILITY OR OTHER CAUSE OF ANY KIND OR CHARACTER BASED UPON OR RESULTING FROM ANY CONTENT.</p>
+				<h3>Limitation of Liability; Waiver</h3>
+				<p>UNDER NO CIRCUMSTANCES WILL THE MAY PARTIES BE LIABLE TO YOU FOR ANY LOSS OR DAMAGES OF ANY KIND (INCLUDING, WITHOUT LIMITATION, FOR ANY DIRECT, INDIRECT, ECONOMIC, EXEMPLARY, SPECIAL, PUNITIVE, INCIDENTAL OR CONSEQUENTIAL LOSSES OR DAMAGES) THAT ARE DIRECTLY OR INDIRECTLY RELATED TO: (A) THE SERVICE; (B) THE MAY CONTENT; © USER CONTENT; (D) YOUR USE OF, INABILITY TO USE, OR THE PERFORMANCE OF THE SERVICE; (E) ANY ACTION TAKEN IN CONNECTION WITH AN INVESTIGATION BY THE MAY PARTIES OR LAW ENFORCEMENT AUTHORITIES REGARDING YOUR OR ANY OTHER PARTY’S USE OF THE SERVICE; (F) ANY ACTION TAKEN IN CONNECTION WITH COPYRIGHT OR OTHER INTELLECTUAL PROPERTY OWNERS; (G) ANY ERRORS OR OMISSIONS IN THE SERVICE’S OPERATION; OR (H) ANY DAMAGE TO ANY USER’S COMPUTER, MOBILE DEVICE, OR OTHER EQUIPMENT OR TECHNOLOGY INCLUDING, WITHOUT LIMITATION, DAMAGE FROM ANY SECURITY BREACH OR FROM ANY VIRUS, BUGS, TAMPERING, FRAUD, ERROR, OMISSION, INTERRUPTION, DEFECT, DELAY IN OPERATION OR TRANSMISSION, COMPUTER LINE OR NETWORK FAILURE OR ANY OTHER TECHNICAL OR OTHER MALFUNCTION, INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOST PROFITS, LOSS OF GOODWILL, LOSS OF DATA, WORK STOPPAGE, ACCURACY OF RESULTS, OR COMPUTER FAILURE OR MALFUNCTION, EVEN IF FORESEEABLE OR EVEN IF THE MAY PARTIES HAVE BEEN ADVISED OF OR SHOULD HAVE KNOWN OF THE POSSIBILITY OF SUCH DAMAGES, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE, STRICT LIABILITY OR TORT (INCLUDING, WITHOUT LIMITATION, WHETHER CAUSED IN WHOLE OR IN PART BY NEGLIGENCE, ACTS OF GOD, TELECOMMUNICATIONS FAILURE, OR THEFT OR DESTRUCTION OF THE SERVICE). IN NO EVENT WILL THE MAY PARTIES BE LIABLE TO YOU OR ANYONE ELSE FOR LOSS, DAMAGE OR INJURY, INCLUDING, WITHOUT LIMITATION, DEATH OR PERSONAL INJURY.</p><p>YOU AGREE THAT IN THE EVENT YOU INCUR ANY DAMAGES, LOSSES OR INJURIES THAT ARISE OUT OF MAY’S ACTS OR OMISSIONS, THE DAMAGES, IF ANY, CAUSED TO YOU ARE NOT IRREPARABLE OR SUFFICIENT TO ENTITLE YOU TO AN INJUNCTION PREVENTING ANY EXPLOITATION OF ANY WEB SITE, SERVICE, PROPERTY, PRODUCT OR OTHER CONTENT OWNED OR CONTROLLED BY THE MAY PARTIES, AND YOU WILL HAVE NO RIGHTS TO ENJOIN OR RESTRAIN THE DEVELOPMENT, PRODUCTION, DISTRIBUTION, ADVERTISING, EXHIBITION OR EXPLOITATION OF ANY WEB SITE, PROPERTY, PRODUCT, SERVICE, OR OTHER CONTENT OWNED OR CONTROLLED BY THE MAY PARTIES.</p>
+				<p>BY ACCESSING THE SERVICE, YOU UNDERSTAND THAT YOU MAY BE WAIVING RIGHTS WITH RESPECT TO CLAIMS THAT ARE AT THIS TIME UNKNOWN OR UNSUSPECTED, AND IN ACCORDANCE WITH SUCH WAIVER, YOU ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTAND, AND HEREBY EXPRESSLY WAIVE, ANY LAW OF ANY STATE OR TERRITORY, WHICH PROVIDES AS FOLLOWS: “A GENERAL RELEASE DOES NOT EXTEND TO CLAIMS WHICH THE CREDITOR DOES NOT KNOW OR SUSPECT TO EXIST IN HIS FAVOR AT THE TIME OF EXECUTING THE RELEASE, WHICH IF KNOWN BY HIM MUST HAVE MATERIALLY AFFECTED HIS SETTLEMENT WITH THE DEBTOR.”</p>
+				<p>MAY IS NOT RESPONSIBLE FOR THE ACTIONS, CONTENT, INFORMATION, OR DATA OF THIRD PARTIES, AND YOU RELEASE US, OUR DIRECTORS, OFFICERS, EMPLOYEES, AND AGENTS FROM ANY CLAIMS AND DAMAGES, KNOWN AND UNKNOWN, ARISING OUT OF OR IN ANY WAY CONNECTED WITH ANY CLAIM YOU HAVE AGAINST ANY SUCH THIRD PARTIES.</p>
+				<h3>Indemnification</h3>
+				<p>You (and also any third party for whom you operate an account or activity on the Service) agree to defend (at ${appName}’s request), indemnify and hold the ${appName} Parties harmless from and against any claims, liabilities, damages, losses, and expenses, including without limitation, reasonable attorney’s fees and costs, arising out of or in any way connected with any of the following (including as a result of your direct activities on the Service or those conducted on your behalf): (i) your Content or your access to or use of the Service; (ii) your breach or alleged breach of these Terms of Use; (iii) your violation of any third-party right, including without limitation, any intellectual property right, publicity, confidentiality, property or privacy right; (iv) your violation of any laws, rules, regulations, codes, statutes, ordinances or orders of any governmental and quasi-governmental authorities, including, without limitation, all regulatory, administrative and legislative authorities; or (v) any misrepresentation made by you. You will cooperate as fully required by ${appName} in the defense of any claim. ${appName} reserves the right to assume the exclusive defense and control of any matter subject to indemnification by you, and you will not in any event settle any claim without the prior written consent of ${appName}.</p>
+				<h3>Arbitration</h3>
+				<p>Except if you opt-out or for disputes relating to: (1) your or ${appName}’s intellectual property (such as trademarks, trade dress, domain names, trade secrets, copyrights and patents); (2) violations of the API Terms; or (3) violations of provisions 13 or 15 of the Basic Terms, above (“Excluded Disputes”), you agree that all disputes between you and ${appName} (whether or not such dispute involves a third party) with regard to your relationship with ${appName}, including without limitation disputes related to these Terms of Use, your use of the Service, and/or rights of privacy and/or publicity, will be resolved by binding, individual arbitration under the Indian Council of Arbitration (ICA) rules for arbitration of consumer-related disputes and you and ${appName} hereby expressly waive trial by jury. As an alternative, you may bring your claim in your local “small claims” court, if permitted by that small claims court’s rules. You may bring claims only on your own behalf. Neither you nor ${appName} will participate in a class action or class-wide arbitration for any claims covered by this agreement. You also agree not to participate in claims brought in a private attorney general or representative capacity, or consolidated claims involving another person’s account, if ${appName} is a party to the proceeding. This dispute resolution provision will be governed by the Arbitration and Conciliation Act . Any provision of applicable law notwithstanding, the arbitrator will not have authority to award damages, remedies or awards that conflict with these Terms of Use.</p>
+				<p>If the prohibition against class actions and other claims brought on behalf of third parties contained above is found to be unenforceable, then all of the preceding language in this Arbitration section will be null and void. This arbitration agreement will survive the termination of your relationship with ${appName}.</p>
+				<h3>Time Limitation on Claims</h3>
+				<p>You agree that any claim you may have arising out of or related to your relationship with ${appName} must be filed within one year after such claim arose; otherwise, your claim is permanently barred.</p>
+				<h3>Governing Law &amp; Venue</h3>
+				<p>These Terms of Use are governed by and construed in accordance with the laws of India, without giving effect to any principles of conflicts of law AND WILL SPECIFICALLY NOT BE GOVERNED BY INDIAN CONVENTIONS ON CONTRACTS FOR THE INTERNATIONAL SALE OF GOODS, IF OTHERWISE APPLICABLE. For any action at law or in equity relating to the arbitration provision of these Terms of Use, the Excluded Disputes or if you opt out of the agreement to arbitrate, you agree to resolve any dispute you have with ${appName} exclusively in a state or court located in Ernakulam, Kerala, and to submit to the personal jurisdiction of the courts located in Ernakulam for the purpose of litigating all such disputes.</p>
+				<p>If any provision of these Terms of Use is held to be unlawful, void, or for any reason unenforceable during arbitration or by a court of competent jurisdiction, then that provision will be deemed severable from these Terms of Use and will not affect the validity and enforceability of any remaining provisions. ${appName}’s failure to insist upon or enforce strict performance of any provision of these Terms will not be construed as a waiver of any provision or right. No waiver of any of these Terms will be deemed a further or continuing waiver of such term or condition or any other term or condition. ${appName} reserves the right to change this dispute resolution provision, but any such changes will not apply to disputes arising before the effective date of the amendment. This dispute resolution provision will survive the termination of any or all of your transactions with ${appName}.</p>
+				<h3>Entire Agreement</h3>
+				<p>If you are using the Service on behalf of a legal entity, you represent that you are authorized to enter into an agreement on behalf of that legal entity. These Terms of Use constitute the entire agreement between you and ${appName} and governs your use of the Service, superseding any prior agreements between you and ${appName}. You will not assign the Terms of Use or assign any rights or delegate any obligations hereunder, in whole or in part, whether voluntarily or by operation of law, without the prior written consent of ${appName}. Any purported assignment or delegation by you without the appropriate prior written consent of ${appName} will be null and void. ${appName} may assign these Terms of Use or any rights hereunder without your consent. If any provision of these Terms of Use is found by a court of competent jurisdiction to be invalid or otherwise unenforceable, the parties nevertheless agree that such portion will be deemed severable from these Terms of Use and will not affect the validity and enforceability of the remaining provisions, and the remaining provisions of the Terms of Use remain in full force and effect. Neither the course of conduct between the parties nor trade practice will act to modify the Terms of Use. These Terms of Use do not confer any third-party beneficiary rights.</p>
+				<h3>Territorial Restrictions</h3>
+				<p>The information provided within the Service is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject ${appName} to any registration requirement within such jurisdiction or country. We reserve the right to limit the availability of the Service or any portion of the Service, to any person, geographic area, or jurisdiction, at any time and in our sole discretion, and to limit the quantities of any content, program, product, service or other feature that ${appName} provides.</p>
+				<p>Software related to or made available by the Service ${appName} be subject to India’s export controls. Thus, no software from the Service ${appName} be downloaded, exported or re-exported into (or to a national or resident of) any country to which India has embargoed goods. By downloading any software related to the Service, you represent and warrant that you are not located in, under the control of, or a national or resident of, any such country or on any such list.</p>
+    	</div></div>
+`
+:
+`
+<div class="content">
+		<header class="entry-header">
+			<h1 class="entry-title">SUBSCRIPTION TERMS</h1>
+		</header>
+        <p>1. Unless you cancel before the end of the free trial, you will be automatically billed for the subscription at the end of the trial period.</p>
+        <p>2. Payment will be charged at confirmation of purchase using the payment method you selected in your Google Account. Learn more about accepted payment methods on Google Play here.</p>
+        <p>3. Subscriptions are automatically charged each subscription billing period (whether weekly, monthly, annually, or another period), and you may be charged no more than 24 hours before the beginning of each billing period.</p>
+        <p>4. You can cancel a free trial or subscription anytime in your Google Account.</p>
+        <p>5. To avoid being charged, cancel the subscription in your Google Account before the end of the trial or the current subscription billing period, and the cancellation will apply to the next period. When you cancel a subscription you will not receive a refund for the current billing period, but will still be able to use your subscription for the time you have already paid.</p>
+        <p>6. You alone can manage your subscription. Learn more about managing subscriptions (and how to cancel them) on Google Play Help.</p>
+        <p>7. If you purchased a subscription through the Google Play and are eligible for a refund, you’ll have to request it directly from Google. To request a refund, follow these instructions from the Google Play and learn more about how to get a refund on Google Play Help. We as the App Developer do not provide refunds or facilitate chargebacks.</p>
+        <p>8. During the trial period you can try out the premium features for free. Google Play Store will only charge you after the end of trial period. If you don't want to convert to a paid subscription, cancel the subscription upto 24 hours before trial ends. Please note: Not all subscriptions offers a trial period.</p>
+        </div>
+`
+</script></body></html>
